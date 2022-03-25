@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulário</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery.maskedinput/1.4.1/jquery.maskedinput.min.js"></script>
+</head>
+
+<body>
+  <main class="maintab1">
+    <header>
+      <p>Forms</p>
+      <h1>First Tab</h1>
+
+    </header>
+    <section class="content">
+      <section class="form">
+        <h2>Team Sign Up</h2>
+        <div class="tabs">
+          <a href="">Basic</a>
+          <a href="">Social</a>
+          <a href=""> Certificates</a>
+        </div>
+        <div class="inputA">
+          <label for="">Full Name *</label>
+          <textarea class="arrumar" name="" id="" cols="" rows="" placeholder="Edilca Costa" required></textarea>
+        </div>
+        <div class="inputA">
+          <label for="">Nickname</label>
+          <textarea class="arrumar" name="" id="" cols="" rows="" placeholder="Dilca"></textarea>
+        </div>
+        <div class="metade">
+          <div class="inputinfo">
+            <label class="email" for="">Email * </label>
+            <label class="phone" for="">Phone</label>
+          </div>
+          <div class="inputboxinput">
+            <input class="email" type="email" placeholder="email@email.com.br" required> </input>
+            <input class="phone" type="tel" placeholder=" (00) 0000-0000" pattern="[0-9]{2}-[0-9]{5}-[0-9]{4}"></input>
+          </div>
+        </div>
+        <div>
+          <p class="niver">Birthday *</p>
+          <div class="selectinputs">
+            <div class="menor">
+              <div class="bloco1">
+                <span class="day"> Day</span>
+                <span class="month"> Month</span>
+                <span class="year">Year</span>
+                <span class="age">Age</span>
+              </div>
+              <div class="bloco2">
+                <select class="day" type="number" name="" id="day">
+                  <option value="day"></option>
+                </select>
+                <select class="month" type="number" min="01" max="12" name="" id="">
+
+
+                </select>
+                <select class="year" type="number" min="1910" max="2022" name="" id="">
+
+                </select>
+                <textarea class="age" name="" id="" cols="2" rows="1" disabled></textarea>
+              </div>
+            </div>
+          </div>
+          <div class="checkbox">
+            <input type="checkbox" name="" id="">
+            <label for=""> I accept the terms and privacy</label>
+
+          </div>
+        </div>
+        <div class="boxbutton">
+          <button> Next > </button>
+
+        </div>
+      </section>
+
+    </section>
+  </main>
+  <main class="maintab2">
+    <header>
+      <p>Forms</p>
+      <h1>Second Tab</h1>
+    </header>
+    <section class="content">
+      <section class="form">
+        <h2>Team Sign Up</h2>
+        <div class="tabs">
+          <a href="">Basic</a>
+          <a href="">Social</a>
+          <a href=""> Certificates</a>
+        </div>
+        <div class="inputA">
+          <label for="">LinkedIn</label>
+          <textarea name="" id="" cols="" rows="" placeholder="linkedin.com"></textarea>
+        </div>
+        <div class="inputA">
+          <label for="">Github *</label>
+          <textarea name="" id="" cols="" rows="" placeholder="github.com"></textarea>
+        </div>
+        <div class="boxbutton">
+          <button class="buttontab2"> Next > </button>
+
+        </div>
+
+      </section>
+
+    </section>
+  </main>
+  <main class="maintab3">
+    <header>
+      <p>Forms</p>
+      <h1>Third Tab Tab</h1>
+    </header>
+    <section class="content">
+      <section class="form">
+        <h2>Team Sign Up</h2>
+        <div class="tabs">
+          <a href="">Basic</a>
+          <a href="">Social</a>
+          <a href=""> Certificates</a>
+        </div>
+        <div class="inputA">
+          <label for="">Certificates</label>
+          <textarea name="" id="" cols="" rows="" placeholder="certificates"></textarea>
+        </div>
+        <div class="boxbutton">
+          <button class="buttontab3"> + More > </button>
+
+        </div>
+        <div class="inputA">
+          <label for="">Team Name *
+          </label>
+          <textarea name="" id="" cols="" rows="" placeholder="Team Name" required></textarea>
+        </div>
+        <div class="inputA">
+          <label for="">Institution *</label>
+          <textarea name="" id="" cols="" rows="" placeholder="institution" required></textarea>
+        </div>
+        <div class="inputA">
+          <label for="">Graduation *</label>
+          <textarea name="" id="" cols="" rows="" placeholder="Graduation" required></textarea>
+        </div>
+        <div class="boxbutton">
+          <button class="buttontab3"> &#8730 Finish</button>
+
+        </div>
+      </section>
+    </section>
+  </main>
+  <main class="maintab4">
+    <header class="headerfor">
+      <p>Forms</p>
+      <h1>Sucess</h1>
+    </header>
+    <section class="content">
+      <section class="form">
+        <h2 class="for">Your data has been sent successfully!</h2>
+        <div class="for">
+
+        </div>
+        <div class="boxbuttonfor">
+          <button class="buttonfor"> Cloused X</button>
+
+        </div>
+      </section>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+
+</html>
