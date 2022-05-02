@@ -13,4 +13,4 @@ jQuery('input.phone')
       element.mask('(99) 9999-9999?9');
     }
   });
-//Função para espandir opçoes do select
+//Função niver

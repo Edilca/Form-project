@@ -259,6 +259,7 @@ div.checkbox label {
   height: 40px;
   width: 80px;
   border: none;
+  cursor: pointer;
 }
 /*Tab 2*/
 .buttontab2 {
@@ -271,6 +272,7 @@ div.checkbox label {
   padding: 5px 5px 5px 5px;
   border-radius: 4px;
   height: 40px;
+  cursor: pointer;
 }
 /*Tab 3 */
 .buttontab3 {
@@ -284,6 +286,7 @@ div.checkbox label {
   border-radius: 4px;
   font-size: 10px;
   height: 40px;
+  cursor: pointer;
 }
 maintab3 {
   height: 1100px;
@@ -329,5 +332,6 @@ div.for {
   height: 40px;
   width: 80px;
   border: none;
+  cursor: pointer;
 }
 /*Responsivo*/
